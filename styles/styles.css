@@ -1,6 +1,7 @@
 .logo {
-    font-family: Montserrat;
-    font-style: bold;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
     font-size: 30px;
     line-height: 160%;
     letter-spacing: -2%;
@@ -16,7 +17,7 @@
 }
 
 .nav-links {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
@@ -24,4 +25,51 @@
     margin-top: 48px;
     margin-left: 38px;
     display: inline-block;
+}
+
+.main-title {
+    max-width: 495px;
+    width: 100%;   
+    margin-top: 203px;
+    margin-left: 200px; 
+    font-family: "Ramaraja", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: 2%;
+    color: #1B0A42;
+}
+
+.main-info {
+    max-width: 583px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 2%;
+    color: #9A9A9A;
+}
+
+.main-button {
+    width: 152px;
+    height: 64px;
+    margin-top: 50px;
+    margin-left: 200px;
+    border-radius: 6px;
+    background-color: #33A2E0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 2%;
+    color: #FFFFFF;
+    border: none;
+
 }
